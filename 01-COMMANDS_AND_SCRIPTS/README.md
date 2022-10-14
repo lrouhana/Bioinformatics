@@ -93,7 +93,7 @@ iqtree -nt AUTO -s rrm_merged.fa
 iqtree -nt AUTO -s CEBP_ZZ.hmm2aln.fa
 ```
 
-## Align and run RRM tree
+## Identify and determine length of tails in amplicon data
 
 ```
 # this script creates files with tails and files with lengths, and can create
