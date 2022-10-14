@@ -93,3 +93,12 @@ iqtree -nt AUTO -s rrm_merged.fa
 iqtree -nt AUTO -s CEBP_ZZ.hmm2aln.fa
 ```
 
+## Align and run RRM tree
+
+```
+# this script creates files with tails and files with lengths, and can create
+# HTML files (for visualizing tails) if print_html() routine is uncommented
+perl get_polya.pl
+```
+
+
